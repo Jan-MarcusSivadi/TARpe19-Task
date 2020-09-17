@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.tiles {
+    width: 900px;
+    height: 900px;
+    background-color: gray;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.tiles > div {
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.r1 {
+    background-color: red;
+}
+.r2 {
+    background-color: red;
+    border-radius: 50%;
+}
+
+.y1 {
+    background-color: yellow;
+}
+.y2 {
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.g1 {
+    background-color: green;
+}
+.g2 {
+    background-color: green;
+    border-radius: 50%;
+}
